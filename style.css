@@ -1,0 +1,58 @@
+body {margin: 0;}
+
+
+.contentwrapper {margin: 0 auto;
+text-align: center;
+}
+
+#logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right:0;
+  margin: auto;
+  width: 350px
+  }
+
+  #logo::after {
+    content: "France"
+    color: black;
+}
+
+
+  input text {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin: auto;
+    }
+
+
+
+
+header {float: right;
+        font-size:13px;
+}
+header ul li {display: inline-block;
+margin-bottom: 100px;
+padding: 0 10px 0 10px;}
+
+#A {
+  border-radius: 100px; 
+  max-width: 10px;
+  }
+
+input[type=text] {padding: 4px 70px;
+text-align: center;}
+
+input[type=text]:active {border-color: blue;}
+
+body, td, a, p, .h {font-family: arial, sans-serif}
+
+#inputs {text-align: center;
+position: absolute;
+bottom: 30%;
+left: 30%
